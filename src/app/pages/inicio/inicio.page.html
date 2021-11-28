@@ -1,0 +1,66 @@
+<ion-header >
+  <ion-toolbar >
+    <ion-header class="ion-padding ion-no-border">
+      <ion-toolbar >
+        <ion-buttons slot="start">
+          <ion-avatar>
+            <ion-img src="/assets/paulocantante.jpg" ></ion-img>
+          </ion-avatar>
+        </ion-buttons>
+      </ion-toolbar>
+    
+    
+      
+    </ion-header>
+    <ion-buttons slot="end">
+      <ion-icon (click)="openMenu()" style="font-size: 40px;" name="fast-food-outline"></ion-icon>
+      
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content background color="warning">
+
+    
+    <ion-slides [options]="option" class="ion-margin-top ion-padding" >
+      <ion-slide>
+        <ion-card background color="warning" class="ion-padding">
+          <img src="/assets/terremoto.jpeg" class="ion-padding">
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card background color="warning" class="ion-padding">
+          <ion-img src="/assets/carneparrilla.jpeg"></ion-img>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card background color="warning" class="ion-padding">
+          <ion-img src="/assets/lecheasada.jpg"></ion-img>
+        </ion-card>
+      </ion-slide>
+
+      <ion-slide>
+        <ion-card background color="warning" class="ion-padding">
+          <ion-img src="/assets/empanadas.jpg"></ion-img>
+        </ion-card>
+      </ion-slide>
+  </ion-slides>
+    <ion-title class="ion-padding ion-title"><b>Cocinero Universitario</b></ion-title>
+    <ion-card>
+      <ion-card-content>
+        <p class="ion-padding p"><b>Bienvenidos a "Cocinero Universitario", Pequeña plataforma blog donde puedes encontrar
+          múltiples recetas acerca de comidas típicas de Chile, múltiples Recetas
+          acerca del vegeterianismo, veganismo, y muchos más.
+          Disfruta de nuestro contenido y gustate por los alimentos a cocinar.</b></p>
+          <ion-img src="/assets/cocinero.png"></ion-img>
+      </ion-card-content>
+    </ion-card>
+    
+
+      
+</ion-content>
+

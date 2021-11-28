@@ -1,0 +1,27 @@
+<ion-app color="warning">
+  <ion-menu side="start" menuId="first" contentId="main" color="warning">
+    <ion-header color="warning">
+      <ion-toolbar color="warning" class="ion-padding">
+          <ion-avatar>
+            <img src="/assets/paulocantante.jpg">
+          </ion-avatar>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content >
+      <ion-list >
+        <ion-item  routerLink="/inicio"><ion-icon slot="start" name="bonfire-outline"></ion-icon>Menú Principal</ion-item>
+        <ion-item  routerLink="/recetas"><ion-icon slot="start" name="library-outline"></ion-icon>Categorías Recetas</ion-item>
+        <ion-item  routerLink="/noticias"><ion-icon slot="start" name="earth-outline"></ion-icon>Noticias Internacional</ion-item>
+        <ion-item  routerLink="/contenido"><ion-icon slot="start" name="restaurant-outline"></ion-icon>Programas de Cocinas (show)</ion-item>
+        <ion-item  routerLink="/bienvenida"><ion-icon slot="start" name="power-outline"></ion-icon>Cerrar Sesión</ion-item>
+        
+        
+      </ion-list>
+
+      
+      
+    </ion-content>
+  </ion-menu>
+
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-header class="ion-padding">
+      <ion-toolbar>
+        <ion-buttons slot="start">
+          <ion-avatar >
+            <ion-img src="/assets/paulocantante.jpg"></ion-img>
+          </ion-avatar>
+        </ion-buttons>
+      </ion-toolbar>
+    
+    
+      
+    </ion-header>
+    <ion-buttons slot="end">
+      <ion-icon (click)="openMenu()" style="font-size: 40px;" name="fast-food-outline"></ion-icon>
+      
+    </ion-buttons>
+    
+  </ion-toolbar>
+</ion-header>
+<!--
+<ion-header>
+  <ion-toolbar>
+    <ion-title color="tertiary"><b>Recetas</b></ion-title>
+  </ion-toolbar>
+</ion-header>
+-->
+
+<ion-content class="ion-padding" background color="warning" >
+    
+    <ion-button (click)="onClick()" color="success" class="ion-padding boton" routerLink="/vegano">
+      <ion-icon slot="start" name="body-outline"></ion-icon>
+      Recetas Veganas
+    </ion-button>
+    <ion-button (click)="onClick()" color="medium"  class="ion-padding boton" routerLink="/vegetariano">
+      <ion-icon slot="start" name="leaf-outline"></ion-icon>
+      Recetas Vegetariana
+    </ion-button>
+    <ion-button (click)="onClick()" color="danger"  class="ion-padding boton" routerLink="/salados">
+      <ion-icon slot="start" name="pizza-outline"></ion-icon>
+      Recetas Saladas
+    </ion-button>
+    <ion-button (click)="onClick()"  class="ion-padding boton" routerLink="/dulces">
+      <ion-icon slot="start" name="rose-outline"></ion-icon>
+      Recetas Dulces
+    </ion-button>
+    <ion-button (click)="onClick()"  color="dark" class="ion-padding boton" routerLink="/bebestibles">
+      <ion-icon slot="start" name="beer-outline"></ion-icon>
+      Bebestibles
+    </ion-button>
+    <br><br>
+    <ion-text  class="text ion-padding" color="black">
+      <h5><b>Si quieres saber más tipos de recetas, haz click al siguiente botón que se muestra aquí abajo</b></h5>
+    </ion-text>
+    <br>
+    <ion-button class="ion-padding boton" href="https://www.gourmet.cl" target="_blank">
+      <ion-icon slot="start" name="chevron-up-circle-outline"></ion-icon>
+      Ver más
+    </ion-button>
+    <br><br><br>
+</ion-content>
